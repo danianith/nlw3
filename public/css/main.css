@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box; /* Vai considerar o tamanho da box a partir da borda e não do padding/margin */
 }
 /* selector body */
 body { 	/* declaration */
