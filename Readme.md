@@ -10,7 +10,8 @@ Criação da index.html(landing page) com as principais tags utilizadas, e tamb�
 
 
 Dia 2 - Foi explicado os conceitos de responsividade em CSS (rem, em, vh, %, vw, clamp(), etc.) e foi aplicado na finalização da Landing Page.
-Criação da página orphanages, que conterá o mapa de localização dos orfanatos, criado também o arquivo de css dela, sendo aplicado os mesmos conceitos de responsividade, além de animações e transições.
+Criação das páginas orphanages.html, que contém o mapa de localização dos orfanatos, criado também o arquivo de css dela, sendo aplicado os mesmos conceitos de responsividade, além de animações e transições. Criamos também a página orphanage.html que contém os detalhes do orfanato cadastrado, criação dos arquivos css dela também.
+Explicação e aplicação de JavaScript (Variáveis, tipos de dados, objetos, funções, condições e repetições). Utilizamos a biblioteca leafletjs para criar o mapa interativo. Criamos os arquivos de js das páginas orphanage e orphanages que contém as funções necessárias para utilização dos mapas, botões e galeria de imagens das páginas.
 
 
 <a href="https://nextlevelweek.com">NLW#3!</a> :rocket: agenda completa:
