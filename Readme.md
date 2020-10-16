@@ -12,7 +12,10 @@ Dia 2 - Foi explicado os conceitos de responsividade em CSS (rem, em, vh, %, vw,
 Criação das páginas orphanages.html, que contém o mapa de localização dos orfanatos, criado também o arquivo de css dela, sendo aplicado os mesmos conceitos de responsividade, além de animações e transições. Criamos também a página orphanage.html que contém os detalhes do orfanato cadastrado, criação dos arquivos css dela também.
 Explicação e aplicação de JavaScript (Variáveis, tipos de dados, objetos, funções, condições e repetições). Utilizamos a biblioteca leafletjs para criar o mapa interativo. Criamos os arquivos de js das páginas orphanage e orphanages que contém as funções necessárias para utilização dos mapas, botões e galeria de imagens das páginas.
 
-Dia 3 - Hoje iremos criar os formulários para cadastro dos orfanatos. Criação da página create-orphanage.html e também os arquivos de css necessários. Criação de algumas imagens svg necessárias.
+Dia 3 - Hoje iremos criar os formulários para cadastro dos orfanatos. Criação da página create-orphanage.html e também os arquivos de css necessários. Criação de algumas imagens svg necessárias para a estilização das páginas.
+Criação do arquivo JS page-create-orphanage.js com as funções relacionadas ao mapa para adicionar a localização no formulário de cadastro dos orfanatos, função de criação de ícone e marcadores, funções para adicionar e remover fotos e função para validação dos botões sim e não da página create-orphanage.html.
+
+Dia 4 - 
 
 
 <a href="https://nextlevelweek.com">NLW#3!</a> :rocket: agenda completa:
