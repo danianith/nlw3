@@ -5,13 +5,14 @@
 Dia 1 - Explicação dos conceitos de Programação WEB / Lógica de Programação / Front-end e Back-end / HTTP ( HyperText Transfer Protocol ) / URL ( Universal Resource Location ) / HTML / CSS / Javascript. 
 Após foi  feito a configuração do ambiente de desenvolvimento (Chrome - Navegador e VSCode - Para escrever códigos).
 Após foi aplicação dos conceitos na prática - Mão na Massa:
-
 Criação da index.html(landing page) com as principais tags utilizadas, e também conectando o css ao html. Criação de documentos .css para organização e estilização do projeto, foi explicado o conceito de Cascading Style Sheets e Cascata e Especificidade. Foi explicado e demonstrado como deixar tudo responsivo e Mobile First. Explicação e prática de displays, flexbox, position: relative / absolute, alinhamentos e espaçamentos. Além de criar animações e transições.
 
 
 Dia 2 - Foi explicado os conceitos de responsividade em CSS (rem, em, vh, %, vw, clamp(), etc.) e foi aplicado na finalização da Landing Page.
 Criação das páginas orphanages.html, que contém o mapa de localização dos orfanatos, criado também o arquivo de css dela, sendo aplicado os mesmos conceitos de responsividade, além de animações e transições. Criamos também a página orphanage.html que contém os detalhes do orfanato cadastrado, criação dos arquivos css dela também.
 Explicação e aplicação de JavaScript (Variáveis, tipos de dados, objetos, funções, condições e repetições). Utilizamos a biblioteca leafletjs para criar o mapa interativo. Criamos os arquivos de js das páginas orphanage e orphanages que contém as funções necessárias para utilização dos mapas, botões e galeria de imagens das páginas.
+
+Dia 3 - Hoje iremos criar os formulários para cadastro dos orfanatos. Criação da página create-orphanage.html e também os arquivos de css necessários. Criação de algumas imagens svg necessárias.
 
 
 <a href="https://nextlevelweek.com">NLW#3!</a> :rocket: agenda completa:
