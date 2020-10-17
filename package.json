@@ -1,0 +1,25 @@
+{
+  "name": "nlw",
+  "version": "1.0.0",
+  "description": "* Projeto HAPPY desenvolvido durante a 3° edição da Next Level Week da Rocketseat NLW#3! :rocket: <a href=\"https://danianith.github.io/nlw3/index.html\">Acesse minha página aqui</a>",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danianith/nlw3.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danianith/nlw3/issues"
+  },
+  "homepage": "https://github.com/danianith/nlw3#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "hbs": "^4.1.1",
+    "nodemon": "^2.0.5"
+  }
+}
