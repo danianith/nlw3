@@ -1,6 +1,6 @@
 
 * Projeto HAPPY desenvolvido durante a 3° edição da Next Level Week da Rocketseat NLW#3! :rocket:
-<a href="https://danianith.github.io/nlw3/index.html">Acesse minha página aqui</a>
+<a href="https://danianith.github.io/nlw3/index.hbs">Acesse minha página aqui</a>
 
 Dia 1 - Explicação dos conceitos de Programação WEB / Lógica de Programação / Front-end e Back-end / HTTP ( HyperText Transfer Protocol ) / URL ( Universal Resource Location ) / HTML / CSS / Javascript. 
 Após foi  feito a configuração do ambiente de desenvolvimento (Chrome - Navegador e VSCode - Para escrever códigos).
