@@ -1,5 +1,5 @@
 
-* Projeto HAPPY desenvolvido durante a 3° edição da Next Level Week da Rocketseat NLW#3! :rocket:
+* Projeto HAPPY desenvolvido durante a 3° edição da Next Level Week da Rocketseat <a href="https://nextlevelweek.com">NLW#3!</a> :rocket:
 
 Dia 1 - Explicação dos conceitos de Programação WEB / Lógica de Programação / Front-end e Back-end / HTTP ( HyperText Transfer Protocol ) / URL ( Universal Resource Location ) / HTML / CSS / Javascript. 
 Após foi  feito a configuração do ambiente de desenvolvimento (Chrome - Navegador e VSCode - Para escrever códigos).
