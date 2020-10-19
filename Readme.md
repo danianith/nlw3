@@ -1,5 +1,7 @@
 
-* Projeto HAPPY desenvolvido durante a Next Level Week da Rocketseat <a href="https://nextlevelweek.com">NLW#3!</a> :rocket: <br> As tecnologias utilizadas no front-end foram (HTML, CSS e JavaScript) e no back-end (JavaScript, Node.js, Express, Handlebars, SQLite e Git).
+* Projeto HAPPY desenvolvido durante a Next Level Week da Rocketseat <a href="https://nextlevelweek.com">NLW#3!</a> :rocket: <br> A aplicação Happy vem para facilitar a visita em abrigos e lares que sejam próximos da sua casa, assim você pode levar muito amor e alegria às crianças! Adaptei para a minha cidade: Sapucaia do Sul/RS. Aqui você consegue visualizar informações sobre os abrigos, entrar em contato e também cadastrar novos lares. 
+
+As tecnologias utilizadas no front-end foram HTML, CSS e JavaScript. No back-end foram JavaScript, Node.js, Express, Handlebars, SQLite e Git.
 
 Dia 1 - Explicação dos conceitos de Programação WEB / Lógica de Programação / Front-end e Back-end / HTTP ( HyperText Transfer Protocol ) / URL ( Universal Resource Location ) / HTML / CSS / Javascript. 
 Após foi  feito a configuração do ambiente de desenvolvimento (Chrome - Navegador e VSCode - Para escrever códigos).
