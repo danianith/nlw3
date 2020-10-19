@@ -84,3 +84,15 @@ function toggleSelect(event) {
     // verificar se sim ou não
     input.value = button.dataset.value;    
 }
+
+/*function validate(event) {
+
+    //validar se lat e lng estão preenchidos
+    const needsLatAndLng = true;
+    if(needsLatAndLng) {
+        event.preventDefault()
+        alert('Selecione o endereço no mapa')
+    } else {
+        const needsLatAndLng = false;
+    }
+}*/

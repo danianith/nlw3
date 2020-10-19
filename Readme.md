@@ -1,5 +1,5 @@
 
-* Projeto HAPPY desenvolvido durante a 3° edição da Next Level Week da Rocketseat <a href="https://nextlevelweek.com">NLW#3!</a> :rocket:
+* Projeto HAPPY desenvolvido durante a Next Level Week da Rocketseat <a href="https://nextlevelweek.com">NLW#3!</a> :rocket: <br> As tecnologias utilizadas no front-end foram (HTML, CSS e JavaScript) e no back-end (JavaScript, Node.js, Express, Handlebars, SQLite e Git).
 
 Dia 1 - Explicação dos conceitos de Programação WEB / Lógica de Programação / Front-end e Back-end / HTTP ( HyperText Transfer Protocol ) / URL ( Universal Resource Location ) / HTML / CSS / Javascript. 
 Após foi  feito a configuração do ambiente de desenvolvimento (Chrome - Navegador e VSCode - Para escrever códigos).
@@ -16,6 +16,8 @@ Criação do arquivo JS page-create-orphanage.js com as funções relacionadas a
 
 Dia 4 - Hoje iremos começar o Back-end da aplicação. Explicação do que é e como funciona o Back-end. Preparação do ambiente backend com instalação do node.js. Organização das pastas e arquivos anteriores. Instalação das dependências para funcionar o server. Criação do arquivo server.js onde iremos fazer as funções para nosso backend. Explicação sobre template engine que vamos usar para facilitar a visualização dos dados na aplicação, será usado Handlebars. Criação do arquivo pages.js que será responsável pelas rotas. Convertemos e acoplamos todo o front-end ao back-end. Vamos transformar a página orphanage em uma estrutura de dados, criamos o arquivo fakedata.js para criar os cadastros de 2 orfanatos. Alteramos arquivos de front-end para funcionar dinamicamente com o banco de dados.
 
+Dia 5 - Explicação rápida sobre Banco de Dados e SQLite. Instalação do SQLite. Criação do arquivo db.js e test.js para seguir com as explicações. Criação do arquivo saveOrphanage.js que será usado para o bd da aplicação. Fizemos mudanças nos arquivos pages.js, orphanage.hbs, page-orphanages para linkar com o banco de dados. Mexemos em alguns arquivos de css também.
+Fizemos o envio dos dados do front-end para o back-end. Últimos ajustes e finalização da aplicação.
 
 <a href="https://nextlevelweek.com">NLW#3!</a> :rocket: agenda completa:
 

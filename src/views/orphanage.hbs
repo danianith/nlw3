@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--Essa linha é responsável por aplicar responsividade através da @media no css.-->
-        <title>ACAPASS | Happy ^-^</title>
+        <title>{{ orphanage.name }} | Happy ^-^</title>
 
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""/>
         
@@ -35,68 +35,61 @@
 
             <main class="animate-appear with-sidebar">
                 <div class="orphanage-details">
-                    <img src="/images/home.jpg" alt="ACAPASS">
+                    <img src="{{orphanage.firstImage}}" alt="{{orphanage.name}}">
 
                     <div class="images">
+                        {{#each orphanage.images }}
                         <button onclick="selectImage(event)" class="active" type="button">
-                            <img src="https://source.unsplash.com/random?id=1" alt="ACAPASS">
+                            <img src="{{this}}" alt="{{orphanage.name}}">
                         </button>
-
-                        <button onclick="selectImage(event)" type="button">
-                            <img src="https://source.unsplash.com/random?id=2" alt="ACAPASS">
-                        </button>
-
-                        <button onclick="selectImage(event)" type="button">
-                            <img src="https://source.unsplash.com/random?id=3" alt="ACAPASS">
-                        </button>
-
-                        <button onclick="selectImage(event)" type="button">
-                            <img src="https://source.unsplash.com/random?id=4" alt="ACAPASS">
-                        </button>
-
-                        <button onclick="selectImage(event)" type="button">
-                            <img src="https://source.unsplash.com/random?id=5" alt="ACAPASS">
-                        </button>
-
-                        <button onclick="selectImage(event)" type="button">
-                            <img src="https://source.unsplash.com/random?id=6" alt="ACAPASS">
-                        </button>
+                        {{/each}}
                     </div>
+
 
                     <div class="orphanage-details-content">
 
-                        <h1>ACAPASS</h1>
-                        <p>
-                           A Associação Casa de Passagem de Sapucaia do Sul - ACAPASS é uma organização não governamental (ONG) de caráter filantrópico que acolhe crianças de 0 à 16 anos de forma provisória. Estas crianças passam a viver no abrigo a partir de uma medida protetiva de acolhimento institucional, devido ao abandono ou a casos em que as famílias encontram-se impossibilitadas de cumprir sua função de cuidado e proteção, conforme rege o Estatuto da Criança e Adolescente – ECA (ECA, Art. 101).
-                        </p>
+                        <h1>{{orphanage.name}}</h1>
+                        <p> {{orphanage.about}}</p>
 
                         <div class="map-container">
                             <div id="mapid"></div>
+                            <span
+                                data-lat="{{orphanage.lat}}"
+                                data-lng="{{orphanage.lng}}"></span>
+
                             <footer>
-                                <a href="">Ver rotas no Google Maps</a>
+                                <a href="http://maps.google.com/mobile?q={{orphanage.lat}},{{orphanage.lng}}&z=15" target="_blank">Ver rotas no Google Maps</a>
                             </footer>
                         </div>
 
                         <hr>
 
                         <h2>Instruções para visita</h2>
-                        <p>Venha como se sentir a vontade e traga muito amor e paciência para dar.</p>
+                        <p>{{orphanage.instructions}}</p>
 
                         <div class="open-details">
                             <div class="hour">
                                 <img src="/images/clock.svg" alt="Horários">
-                                Horário de visitas: Das 8h até 18h
+                                {{orphanage.opening_hours}}
                             </div>
-                            <div class="open-on-weekends">
+
+                            {{#if orphanage.open_on_weekends}}
+                            <div class="open-on-weekends open">                                
                                 <img src="/images/info.svg" alt="Informações">
-                                Atendemos nos finais de semana.
+                                Atendemos nos finais de semana.                                
                             </div>
+                            {{else}}
+                            <div class="open-on-weekends closed">                                
+                                <img src="/images/info-red.svg" alt="Informações">
+                                Não atendemos nos finais de semana.                         
+                            </div>
+                            {{/if}}
                         </div>
 
-                        <button class="primary-button" type="button">
+                        <a href="https://api.whatsapp.com/send?l=pt_BR&phone={{orphanage.whatsapp}}" target="_blank" class="primary-button" type="button">
                             <img src="/images/whatsapp.svg" alt="Chamar no whatsapp">
                             Entrar em contato                          
-                        </button>                        
+                        </a>                        
                     </div>
                 </div>
             </main>
